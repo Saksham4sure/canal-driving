@@ -83,9 +83,9 @@ app.use((req, res) => {
   res.status(404).redirect("/");
 });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server listening on http://localhost:${PORT}`);
+// });
 
 
-module.exports = app;
+export default app;
